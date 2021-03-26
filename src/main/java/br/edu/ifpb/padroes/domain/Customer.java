@@ -1,7 +1,8 @@
 package br.edu.ifpb.padroes.domain;
 
-public class Customer {
+public class Customer implements strategy {
 
+    //strategy
     private Long id;
 
     private String name;

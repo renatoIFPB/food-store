@@ -1,7 +1,8 @@
 package br.edu.ifpb.padroes.domain;
 
-public class Restaurant {
+public class Restaurant implements strategy {
 
+    //strategy
     private Long id;
 
     private String name;
